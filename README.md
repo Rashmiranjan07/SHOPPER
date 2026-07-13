@@ -1,185 +1,71 @@
+# Getting Started with Create React App
 
-# 🛍️ SHOPPER
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-> A modern full-stack shopping application built with Java and Spring Boot.
+## Available Scripts
 
-![Java](https://img.shields.io/badge/Java-17+-orange)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.x-brightgreen)
-![Maven](https://img.shields.io/badge/Maven-Build-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
+In the project directory, you can run:
 
----
+### `npm start`
 
-## 📖 Overview
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-SHOPPER is a modern e-commerce application designed with a clean layered architecture. It demonstrates backend development using Spring Boot and Java while providing scalable REST APIs and database integration.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-> **Note:** This README is a polished professional template. Replace placeholders (screenshots, endpoints, deployment URLs, etc.) with your project-specific details where needed.
+### `npm test`
 
----
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## ✨ Features
+### `npm run build`
 
-- User Authentication
-- Product Management
-- Category Management
-- Shopping Cart
-- Order Management
-- RESTful APIs
-- Validation & Exception Handling
-- Database Integration
-- Swagger/OpenAPI Support
-- Clean Layered Architecture
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
----
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## 🛠 Tech Stack
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-| Layer | Technology |
-|-------|------------|
-| Language | Java |
-| Framework | Spring Boot |
-| Build | Maven |
-| Database | MySQL |
-| ORM | Spring Data JPA / Hibernate |
-| API Testing | Postman |
-| Documentation | Swagger |
-| Version Control | Git & GitHub |
+### `npm run eject`
 
----
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## 📂 Project Structure
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-```text
-SHOPPER/
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   ├── resources/
-│   └── test/
-├── pom.xml
-└── README.md
-```
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
----
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## 🚀 Getting Started
+## Learn More
 
-### Prerequisites
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-- Java 17+
-- Maven
-- MySQL
-- Git
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Installation
+### Code Splitting
 
-```bash
-git clone https://github.com/Rashmiranjan07/SHOPPER.git
-cd SHOPPER
-```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-Configure `application.properties`.
+### Analyzing the Bundle Size
 
-Run:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-```bash
-mvn spring-boot:run
-```
+### Making a Progressive Web App
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-## 🔌 API
+### Advanced Configuration
 
-Document your APIs with Swagger.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-Example:
+### Deployment
 
-```http
-GET /api/products
-POST /api/orders
-PUT /api/products/{id}
-DELETE /api/products/{id}
-```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
----
+### `npm run build` fails to minify
 
-## 🏗 Architecture
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-```text
-Controller
-    ↓
-Service
-    ↓
-Repository
-    ↓
-Database
-```
-
----
-
-## 📸 Screenshots
-
-Add screenshots here.
-
-```
-docs/
- ├── home.png
- ├── login.png
- ├── cart.png
- └── dashboard.png
-```
-
----
-
-## 📈 Future Enhancements
-
-- JWT Authentication
-- Payment Gateway
-- Wishlist
-- Reviews & Ratings
-- Email Notifications
-- Docker
-- CI/CD
-
----
-
-## 🤝 Contributing
-
-1. Fork
-2. Create branch
-3. Commit
-4. Push
-5. Open Pull Request
-
----
-
-## 👨‍💻 Author
-
-**Rashmi Ranjan Shaw**
-
-- GitHub: https://github.com/Rashmiranjan07
-
----
-
-## ⭐ Support
-
-If you like this project:
-
-⭐ Star the repository
-
-🍴 Fork it
-
-🤝 Share it
-
----
-
-## 📄 License
-
-MIT License
-
----
-
-<p align="center">
-Made with ❤️ using Java & Spring Boot
-</p>
